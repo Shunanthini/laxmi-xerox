@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        
+        <title> Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="dashboard.js"></script>
+    </head>
+    <body>
+        <div class="container">  
+            <div class="form-box">      
+                <h1>Admin Dashboard</h1>
+                <select id="productCategory">
+                    <option value="">Select Category</option>
+                    <option value="Stationery">Stationery</option>
+                    <option value="Electronics">Mobile Products</option>
+                    <option value="General">General</option>
+                </select>
+                <input type="name" id="productName" placeholder="Name of the Product">
+                <input type="number" id="productPrice" placeholder="Price of the Product">   
+                <input type="file" id="productImage">
+                <button onclick="uploadProduct()">Add Product</button>
+                <button onclick="logout()">Log Out</button>
+
+            </div>
+            <div id="adminProducts" class="products"></div>
+        </div>
+        
+    </body>
+</html> 
