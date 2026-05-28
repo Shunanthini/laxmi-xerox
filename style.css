@@ -74,6 +74,7 @@ body{
   margin:20px; 
   color:white;
   text-decoration:none;
+  font-size:15px;
 }
 .phone:hover{
   color:blue;
@@ -82,6 +83,7 @@ body{
   position:realtive;
   padding:10px; 
   margin:20px;  
+  font-size:15px;
 }
 .daily_time{
   cursor: pointer;
