@@ -20,6 +20,7 @@ body{
   background-color:cadetblue;
   color: white;
   flex-wrap: wrap;
+  font-size:15px;
   
 }
 #taskbar img{
@@ -39,11 +40,11 @@ body{
 }
 #taskbar ul a{
   text-decoration: none;
-  font-size:18px;
+  font-size:15px;
   color: white;
 }
 #taskbar ul a:hover{
-  font-size:22px;
+  font-size:18px;
 }
 
 #taskbar li:hover{
