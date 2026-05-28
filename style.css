@@ -1213,6 +1213,7 @@ body{
   display:none;
 }
 #status_in_menu{
+  display:block;
   color:black;
   font-size:8px;
 }
