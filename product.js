@@ -58,10 +58,10 @@ function checkStatus(){
     //let statusElement=document.getElementById("status");
 
     if(currentTime>=opentime && currentTime<=closetime){
-        text=today+': <span style="color:green"> Open now </span><i style="font-size:12px">(Closes 9.00PM)</i>';
+        text=today+': <span style="color:green"> Open now </span><i>(Closes 9.00PM)</i>';
     }
     else{  
-        text=today+': <span style="color:red">Closed</span><i style="font-size:12px">(Opens 8.00AM)</i>';
+        text=today+': <span style="color:red">Closed</span><i>(Opens 8.00AM)</i>';
     }
     document.getElementById("status").innerHTML=text;
     document.getElementById("status_in_menu").innerHTML=text;
