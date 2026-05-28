@@ -1,22 +1,12 @@
 
 body{
   margin:0;
-  border:1px solid;
   font-family:'Inter',sans-serif;
   background:linear-gradient(to right,rgb(32, 32, 73),rgb(8, 90, 80));
   width:100%;
   color:white;
   
 }
-#indexpage{
-  
-  background:linear-gradient(to right,rgb(32, 32, 73),rgb(8, 90, 80));
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
 
 #taskbar{
   display: flex;
