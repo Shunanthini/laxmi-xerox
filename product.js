@@ -32,7 +32,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/fireba
 };*/
 
 function checkStatus(){
-    const days=["Sunday","Monday","Tuesday","Wednesday","Thurday","Friday","Saturday"];
+    const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     const now=new Date();
     const day=now.getDay();
     const today=days[now.getDay()];
